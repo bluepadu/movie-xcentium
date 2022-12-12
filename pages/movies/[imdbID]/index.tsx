@@ -19,6 +19,7 @@ export default function Movie() {
       .then((data) => {
         dispatch(updateMovie(data));
       })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.query]);
 
   return (
@@ -31,7 +32,7 @@ export default function Movie() {
         <p>{movie?.description}</p>
         <aside>
           {movie?.Ratings.map((rating, index) => (
-            <div className={styles.rating}>
+            <div className={styles.rating} key={index}>
               <h4>{rating.Source}</h4>
               <p>{rating.Value}</p>
             </div>

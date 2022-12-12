@@ -5,10 +5,6 @@ const nextConfig = {
   images: {
     domains: ['m.media-amazon.com'],
   },
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-    prependData: `@import "variable.scss";`
-  },
 }
 
 module.exports = nextConfig

@@ -11,7 +11,7 @@ export default function Movies() {
     <div className={styles.movies}>
       {
         movies?.map(({imdbID, Poster}, i) => (
-          <Link href={`/movies/${imdbID}`}>
+          <Link href={`/movies/${imdbID}`} key={i}>
             <Movie key={i} imdbID={imdbID} Poster={Poster} className={styles.movie} />
           </Link>
         ))
