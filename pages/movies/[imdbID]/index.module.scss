@@ -1,37 +1,33 @@
 .image {
-    width: 22rem;
-    height: 30rem;
-    object-fit: cover;
+  width: 22rem;
+  height: 30rem;
+  object-fit: cover;
 }
 
 .article {
-    display: flex;
-    justify-content: center;    
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
-    @media (min-width: 360px) and (max-width: 414px) {
-        flex-direction: row;
-    }
-
-    @media (max-width: 414px) {
-        flex-direction: column;
-    }
-}   
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
 
 .figure {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .rating {
-    display: flex;
-    justify-content: space-between;
-    gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
 .title {
-    font-size: xx-large;
-    text-align: center;
+  font-size: xx-large;
+  text-align: center;
 }
