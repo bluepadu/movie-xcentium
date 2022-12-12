@@ -1,0 +1,29 @@
+.image {
+    width: 22rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.article {
+    display: flex;
+    justify-content: center;    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.figure {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+}

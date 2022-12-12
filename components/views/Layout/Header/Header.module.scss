@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    background-color: #1D1829;
+    color: white;
+    position: relative;
+
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 3rem;
+        color: red;
+    }
+}

@@ -1,0 +1,12 @@
+.movies {
+    // display: flex;
+    // justify-content: space-around;
+    display: grid;
+    // flex-wrap: 1;
+    grid-template-columns: auto auto auto auto;
+    padding: 4rem, 10rem, 10rem, 4rem;
+}
+
+.movie {
+    margin: 4rem;
+}
