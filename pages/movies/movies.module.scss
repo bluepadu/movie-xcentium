@@ -1,12 +1,14 @@
 .movies {
-    // display: flex;
-    // justify-content: space-around;
-    display: grid;
-    // flex-wrap: 1;
+  display: grid;
+  padding: 4rem, 10rem, 10rem, 4rem;
+  @media (min-width: 768px) {
     grid-template-columns: auto auto auto auto;
-    padding: 4rem, 10rem, 10rem, 4rem;
+  }
+  @media (min-width: 480px) and (max-width: 767px){
+    grid-template-columns: auto auto;
+  }
 }
 
 .movie {
-    margin: 4rem;
+  margin: 4rem;
 }
